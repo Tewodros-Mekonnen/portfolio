@@ -6,10 +6,11 @@
   border-bottom: 0px;
   // background: $white-color;
   // background: lightgrey;
+  background-image: linear-gradient(to right bottom, rgb(192,192,192) 30%, rgb(232,228,252) 50%, rgb(202,250,188) 20%  );
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
-  margin-bottom: 0;
+  margin-bottom: 0; 
   top: 0;
   left: 0;
   bottom: 0;
@@ -18,9 +19,9 @@
 
   
   // background image, hero section
-   background: url("/src/assets/hero-background.png");
-   background-position: center;
-   background-size: cover; 
+  //  background: url("/src/assets/hero-background.png");
+  //  background-position: center;
+  //  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
