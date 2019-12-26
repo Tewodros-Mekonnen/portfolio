@@ -18,9 +18,9 @@
 
   
   // background image, hero section
-  // background: url("/src/assets/particles2.png");
-  // background-position: center;
-  // background-size: cover; 
+   background: url("/src/assets/hero-background.png");
+   background-position: center;
+   background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
