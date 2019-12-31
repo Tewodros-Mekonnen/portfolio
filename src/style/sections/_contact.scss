@@ -27,8 +27,8 @@
       margin-bottom: 1.5rem;
     }
 
-    &__text,
-    a {
+    &__text
+    {
       font-size: 2.4rem;
 
       // Responsive for contact text
@@ -37,4 +37,37 @@
       }
     }
   }
+  
+  //new additions
+  h3.telephone span{
+    letter-spacing: .2rem;
+    font-size: 1.4rem;
+
+    &:hover{
+      color: blue;
+    }
+  }
+  .contact-wrapper a.e-mail{
+    color: $white-color;
+    font-size: 1.8rem;
+  }
+  .contact-wrapper a.e-mail span{
+    letter-spacing: .04rem;
+    font-size: 1.6rem;
+  }
+
+  .contact-wrapper a.e-mail span:hover{
+    color: blue;
+
+  }
+  @media only screen and (max-width:414px){
+    .contact-wrapper a.e-mail{
+      font-size: 1.5rem;
+    }
+    .contact-wrapper a.e-mail span{
+      font-size: 1.3rem;
+      letter-spacing: .04rem;
+    }
+  }
+  
 }
