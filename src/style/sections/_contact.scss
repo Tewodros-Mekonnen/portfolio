@@ -42,9 +42,10 @@
   h3.telephone span{
     letter-spacing: .2rem;
     font-size: 1.4rem;
+    color: $white-color;
 
     &:hover{
-      color: blue;
+      color:wheat;
     }
   }
   .contact-wrapper a.e-mail{
@@ -57,7 +58,7 @@
   }
 
   .contact-wrapper a.e-mail span:hover{
-    color: blue;
+    color:wheat;
 
   }
   @media only screen and (max-width:414px){
@@ -67,6 +68,8 @@
     .contact-wrapper a.e-mail span{
       font-size: 1.3rem;
       letter-spacing: .04rem;
+      
+      
     }
   }
   
