@@ -24,7 +24,7 @@
     backface-visibility: hidden;
 
     &__text {
-      margin-bottom: 1.5rem;
+      margin-bottom: 3.5rem;
     }
 
     &__text
@@ -48,6 +48,10 @@
       color:wheat;
     }
   }
+
+  h3.telephone{
+    margin-top: 1rem;
+  }
   .contact-wrapper a.e-mail{
     color: $white-color;
     font-size: 1.8rem;
@@ -68,9 +72,27 @@
     .contact-wrapper a.e-mail span{
       font-size: 1.3rem;
       letter-spacing: .04rem;
-      
-      
     }
   }
-  
 }
+
+a.cta-btn.cta-btn--email{
+  margin-top: 6rem;
+  color: $white-color;
+  
+      background-image: linear-gradient(
+      135deg,
+      #ff1493 30%,
+      #000080 70%
+    );
+}
+
+a.cta-btn.cta-btn--email:hover{
+  background-image: linear-gradient(
+    35deg,
+    #ff1493 30%,
+    #000080 90%
+  );
+}
+
+
